@@ -1,0 +1,65 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.hover{
+  color:red;
+}
+
+.hover:hover{
+  color: blue;
+}
+
+.button{
+  padding: 20px 40px;
+  text-transform: uppercase;
+  color: white;
+  background-color: green;
+  border: 2px solid gray;
+  border-radius: 25px;
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.button:hover{
+  background-color: yellow;
+  color: black;
+}
+
+.container{
+  margin-top: 20px;
+  width: 500px;
+}
+
+.paragraph{
+  display: none;
+  background-color: gray;
+  color: white;
+  font-size: 30px;
+}
+
+.container:hover .paragraph{
+  display: block;
+}
+
+/* focus */
+
+#first_name{
+  border: 0;
+  outline: 0;
+  border-bottom: 3px solid green;
+  color: green;
+  background-color: gray;
+  padding: 20px;
+  font-size: 20px;
+  margin: 20px;
+}
+
+#last_name:focus,
+#first_name:focus{
+  border-bottom: 3px solid red;
+  color: red;
+  background-color: white;
+}

@@ -1,0 +1,48 @@
+*{
+  margin: 0;
+  padding: 0;
+}
+
+p{
+  width: 300px;
+  margin: 20px auto;
+  padding: 20px;
+}
+
+.solid{
+  border: 10px solid black;
+}
+
+.dotted{
+  border: 10px dotted green;
+}
+
+.dashed{
+  border: 10px dashed blue;
+}
+
+.double{
+  border: 10px double crimson;
+}
+
+.groove{
+  border: 10px groove purple;
+}
+
+.ridge{
+  border: 10px ridge gray;
+}
+
+.inset{
+  border: 10px inset darkorchid;
+}
+
+.outset{
+  border: 10px outset goldenrod;
+}
+
+.radius{
+  border: 10px solid black;
+  /* border-radius can use % or px */
+  border-radius: 50px;
+}

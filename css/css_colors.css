@@ -1,0 +1,36 @@
+.color-name{
+  color:red;
+}
+
+.rgb{
+  /*rgb(Red-value, Green-Value, Blue=value)*/
+  /* Values are from 0 to 255 */
+  /* If all value are 255, it is white */
+  color: rgb(255, 0, 0);
+}
+
+.opacity{
+  /* value should be from 0 to 1 only */
+  /* opacity is transparency of the element's color*/
+  opacity: 0.4;
+}
+
+.rgba{
+  /* rgba(Red-Value, Green-value, blue-value,alpha-value) */
+  /* alpha value = opacity of the color */
+  color: rgba(247, 1, 206, 0.6);
+}
+
+.hexcode{
+  /* hexcode ~~ #RRGGBB */
+  /* value of RR/GG/BB is from 0-9 or A-F */
+  /* 0 is the darkest. F is the lightest */
+  color:#62B8FC;
+  /*or use this one; hexoce ~~ #RGB */
+  /*color: #6D2; */
+}
+
+.background-color{
+  background-color: #123;
+  color: #ffffff;
+}

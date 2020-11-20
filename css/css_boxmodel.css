@@ -1,0 +1,69 @@
+/* Univesal Selector */
+*{
+  margin: 0;
+  padding: 0;
+}
+
+div{
+  border: 2px solid red;
+  background-color: gray;
+  height: 200px;
+  width: 200px;
+}
+
+p.paragraph1{
+  border: 2px solid goldenrod;
+  color:white;
+  margin: 20px;
+}
+
+/* Margin Values
+   1-valu margin: applies to all sides of the box margin: value;
+   2-value margin: appliest to top & bottom and left & right
+   3-value margin: margin:top-value left-right-value bottom-value
+   4-value margin:
+   margin: top value right-value bottom-value left-value
+
+   specific properties:
+
+   margin-top:value
+   margin-bottom:value
+   margin-left:value
+   margin-right:value
+   */
+.div1{
+  background-color: teal;
+}
+
+.div2{
+  background-color: pink;
+}
+
+p.paragraph2{
+  border: 2px solid blue;
+  padding: 20px;
+}
+
+/* Padding */
+/* 1-valu padding: applies to all sides of the box padding: value;
+   2-value padding: appliest to top & bottom and left & right
+   3-value padding: padding:top-value left-right-value bottom-value
+   4-value padding:
+   padding: top value right-value bottom-value left-value
+
+   specific properties:
+
+   padding-top:value
+   padding-bottom:value
+   padding-left:value
+   padding-right:value */
+
+   .div3{
+     background-color: tomato;
+     margin: 20px;
+     overflow: scroll;
+   }
+
+   p.overflow{
+     color: black;
+   }

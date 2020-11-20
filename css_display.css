@@ -1,0 +1,22 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+p{
+  height: 100px;
+  width: 100px;
+  background-color: pink;
+  color: black;
+  margin: 20px;
+  padding: 20px;
+  display: inline-block;
+}
+
+ul li{
+  display: inline;
+  /* display:none; will makeyour element disappear */
+  margin: 20px;
+  padding: 20px;
+}

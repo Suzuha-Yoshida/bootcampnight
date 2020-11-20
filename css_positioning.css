@@ -1,0 +1,73 @@
+*{
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1{
+  color: white;
+}
+
+.static{
+  position: static;
+  background-color: goldenrod;
+  top: 100px;
+  left: 400px;
+}
+
+div.relative{
+  background-color: blue;
+  position: relative;
+  left: 50px;
+  /* If positive value: it will move from the left */
+  /* if value is negative, it will go to the opsite side*/
+  top: 5px;
+  /* 
+  left:
+  right:
+  top:
+  bottom: */
+  z-index: 1;
+}
+
+div.absolute{
+  background-color: green;
+  position: absolute;
+  top: 55px;
+  right: 50px;
+}
+
+div.fixed{
+  position: fixed;
+  background-color: gray;
+  right: 10px;
+  top: 75px;
+  padding: 20px;
+  padding: 20px;
+}
+
+.fixed a{
+  font-size: 25px;
+  text-align: center;
+  color: white;
+  text-decoration: none;
+  padding: 20px;
+}
+
+.parent{
+  position: relative;
+  margin: 0 auto;
+  width: 500px;
+  height: 500px;
+  background-color: gray;
+  z-index: 1;
+}
+
+.child{
+  position: absolute;
+  width: 50px;
+  height: 50px;
+  background-color: tomato;
+  top: 255px;
+  left: 225px;
+}

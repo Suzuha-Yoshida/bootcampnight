@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>HTML Introduction</title>
+</head>
+<body>
+    
+    <!-- Heading Element -->
+    <!-- CTRL + / for windows, CMD + / for MAC -->
+    <h1>Hello World</h1>
+    
+    <!-- Notes -->
+​
+    <!-- Block Elements -->
+    <h1></h1> to <h6></h6>
+    <p></p>
+    <ul></ul> & <ol></ol>
+    <li></li>
+​
+    <!-- Inline Elements -->
+    <img>
+    <input type="text">
+    <label for=""></label>
+    <a href=""></a>
+​
+</body>
+</html>

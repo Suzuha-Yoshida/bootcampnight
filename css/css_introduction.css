@@ -1,0 +1,20 @@
+/* universal selector */
+*{
+  color:green;
+}
+
+p.external-css{
+  color:yellow;
+}
+
+#unique-header{
+  color:tomato;
+}
+
+h1.header1{
+  color:purple;
+}
+
+h2.top-level{
+  color:red;
+}

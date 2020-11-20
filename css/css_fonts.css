@@ -1,0 +1,83 @@
+/* This is another way of importaing fonts from google */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+
+/* Universal Selector */
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+
+.font-size{
+  font-size:200%;
+}
+
+.font-weight{
+  /* font-wight : can change the thickness of your text
+  font weight can use values from 100 to 900,or you can use bold, bolder or lighter */
+  font-weight: 700;
+}
+
+.font-style{
+  /* font style can be normal, Italic or oblique */
+  font-style:italic;
+}
+
+/* text transform has 3 values, uppercase, lowercase and capitalize */
+.uppercase{
+  /*this will make your text to all big Letters */
+  text-transform: uppercase;
+}
+
+.lowercase{
+  /*this will make your text to all small letters */
+  text-transform: lowercase;
+}
+
+.capitalize{
+  /* this will make each first letter of every word intobig letters */
+  text-transform: capitalize;
+}
+
+
+/* text decoration has 4 values*/
+/* 1.none 2.underline 3.overline 4.line-through */
+.none{
+  /* this will remove all text decoration from your text */
+  text-decoration:none;
+}
+
+.underline{
+  /*this will add line to the bottom part of your text */
+  text-decoration:underline;
+}
+
+.overline{
+  /*this will add line above your text */
+  text-decoration: overline;
+}
+
+.line-through{
+  /* this will ad  line in between your text */
+  text-decoration:line-through;
+}
+
+.left{
+  text-align: left;
+}
+
+.center{
+  text-align: center;
+}
+
+.right{
+  text-align:right;
+}
+
+/* Letter Spacing */
+.letter-spacing{
+  letter-spacing:25px;
+}
+
+/* word spacing */
+.word-spacing{
+  word-spacing: 40px;
+}

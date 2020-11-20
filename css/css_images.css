@@ -1,0 +1,20 @@
+div{
+  height: 678px;
+  width: 100%;
+}
+
+.div1{
+  background-image: url(../img/work1.png);
+  background-size: 300px 180px;
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-attachment: scroll;
+  /*fixed*/
+}
+
+.div2{
+  background-image: url(../img/work2.png);
+  background-size: 300px 180px;
+  background-repeat: no-repeat;
+  background-position: center center;
+}

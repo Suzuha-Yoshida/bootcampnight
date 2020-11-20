@@ -1,0 +1,56 @@
+table{
+  border: 2px solid red;
+  width: 50%;
+  border-collapse: separate;
+  empty-cells: show;
+}
+
+td{
+  border: 0;
+  border-bottom: ;
+  border: 1px solid goldenrod;
+  text-align: center;
+  font-size: 50px;
+}
+
+tr.odd{
+  background-color: gray;
+  color: white;
+}
+
+tr.even{
+  background-color:pink;
+  color: gray;
+}
+
+/* forms */
+
+form{
+  color: white;
+}
+
+#email,
+#last_name {
+  background-color: white;
+  color: gray;
+  font-size: 20px;
+  font-weight: 700;
+  height: 75px;
+  width: 400px;
+  border: 0;
+  border-bottom: 5px solid red;
+}
+
+#submit{
+  background-color: seagreen;
+  color: white;
+  border: 2px solid black;
+  font-size: 15px;
+  width: 100px;
+  font-weight: 700;
+  height: 50px;
+}
+
+input#email{
+  background-image: url(../favicon.ico);
+}
